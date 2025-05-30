@@ -42,11 +42,11 @@ Users can search by keyword, view recipe details in a modal, and browse ingredie
 
 ### Main Search Page
 
-![Main View](screenshots/Screenshot%202025-05-29%20at%206.39.00 PM.png)
+![Main View](screenshots/Screenshot%202025-05-30%20at%201.43.35 PM.png)
 
 ### Recipe Modal Example
 
-![Modal View](screenshots/Screenshot%202025-05-29%20at%206.39.37 PM.png)
+![Modal View](screenshots/Screenshot%202025-05-30%20at%201.43.53 PM.png)
 
 ## Built With
 

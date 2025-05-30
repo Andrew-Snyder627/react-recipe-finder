@@ -61,9 +61,23 @@ function App() {
 
   return (
     <div style={{ maxWidth: 800, margin: "2rem auto", padding: "1rem" }}>
-      <h1>Recipe Finder</h1>
+      <h1 className="animated-header">Recipe Finder</h1>
       <button
-        style={{ position: "absolute", top: 20, right: 20, zIndex: 100 }}
+        style={{
+          position: "absolute",
+          top: 20,
+          right: 20,
+          zIndex: 100,
+          background: "#3486eb",
+          color: "white",
+          border: "none",
+          borderRadius: "999px",
+          padding: "0.5rem 1.5rem",
+          fontWeight: "bold",
+          fontSize: "1rem",
+          cursor: "pointer",
+          boxShadow: "0 2px 8px rgba(46, 91, 255, 0.16)",
+        }}
         onClick={() => setShowFavorites((prev) => !prev)}
       >
         {showFavorites ? "Show Search Results" : "Show Favorites"}
